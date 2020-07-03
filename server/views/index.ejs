@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <%- include('blocks/head.ejs') -%>
+</head>
+
+<body>
+   <div id="app">
+    <%- include('blocks/preloader.ejs') -%>
+    <div class="page-wrapper">
+        <%- include('blocks/header.ejs') -%>
+
+        <section class="banner-two">
+            <div class="banner-two__bg">
+                <div class="banner-two__bg-inner" data-options='{ "delay": 5000, "slides": [ { "src": "../public/images/backgrounds/banner-2-bg-1.jpg" }, { "src": "../public/images/backgrounds/banner-2-bg-2.jpg" }, { "src": "../public/images/backgrounds/banner-2-bg-3.jpg" } ], "transition": "fade", "timer": false }'></div><!-- /.banner-two__bg-inner -->
+            </div><!-- /.banner-two__bg -->
+            <img src="../public/images/shapes/banner-two__flotated-text.png" alt="" class="banner-two__floated-text">
+            <div class="container">
+                <p>исследуйте</p>
+                <h2>прекрасное</h2>
+            </div><!-- /.container -->
+        </section><!-- /.banner-two -->
+
+
+        <section class="tour-search-one__home-two">
+            <div class="container">
+                <form class="tour-search-one wow fadeIn" action="tour-sidebar.html" data-wow-duration="1500ms">
+                    <div class="tour-search-one__inner">
+                        <div class="tour-search-one__inputs">
+                            <div class="tour-search-one__input-box">
+                                <label for="place">Куда</label>
+                                <input type="text" placeholder="Введите текст" name="place" id="place">
+                            </div><!-- /.tour-search-one__input-box -->
+                            <div class="tour-search-one__input-box">
+                                <label for="when">Когда</label>
+                                <input type="text" placeholder="Сентябрь" name="when" id="when">
+                            </div><!-- /.tour-search-one__input-box -->
+                            <div class="tour-search-one__input-box">
+                                <label for="type">Тип</label>
+                                <select class="selectpicker" id="type">
+                                    <option value="Adventure">Приключение</option>
+                                    <option value="Wildlife">Живая природа</option>
+                                    <option value="Sightseeing">Экскурсионный</option>
+                                </select>
+                            </div><!-- /.tour-search-one__input-box -->
+                        </div><!-- /.tour-search-one__inputs -->
+                        <div class="tour-search-one__btn-wrap">
+                            <button type="submit" class="thm-btn tour-search-one__btn">Найти</button>
+                        </div><!-- /.tour-search-one__btn-wrap -->
+                    </div><!-- /.tour-search-one__inner -->
+                </form><!-- /.tour-search-one -->
+            </div><!-- /.container -->
+        </section>
+
+        <section class="destinations-three">
+            <div class="container">
+                <div class="block-title text-center">
+<!--                    <p>Checkout featured</p>-->
+                    <h3>Основные направления</h3>
+                </div><!-- /.block-title -->
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="destinations-three__single">
+                            <img src="../public/images/destinations/destinations-3-1-1.jpg" alt="">
+                            <div class="destinations-three__content">
+                                <h3><a href="">Геленджик</a></h3>
+                            </div><!-- /.destinations-three__content -->
+                            <div class="destinations-three__hover-content">
+                                <h3><a href="">Геленджик</a></h3>
+                                <p>24 Тура</p>
+                                <a href="" class="destinations-three__link"><i class="tripo-icon-right-arrow"></i></a>
+                            </div><!-- /.destinations-three__hover-content -->
+                        </div><!-- /.destinations-three__single -->
+                    </div><!-- /.col-lg-4 col-md-6 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="destinations-three__single">
+                            <img src="../public/images/destinations/destinations-3-1-2.jpg" alt="">
+                            <div class="destinations-three__content">
+                                <h3><a href="">Сочи</a></h3>
+                            </div><!-- /.destinations-three__content -->
+                            <div class="destinations-three__hover-content">
+                                <h3><a href="">Сочи</a></h3>
+                                <p>24 Тура</p>
+                                <a href="" class="destinations-three__link"><i class="tripo-icon-right-arrow"></i></a>
+                            </div><!-- /.destinations-three__hover-content -->
+                        </div><!-- /.destinations-three__single -->
+                    </div><!-- /.col-lg-4 col-md-6 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="destinations-three__single">
+                            <img src="../public/images/destinations/destinations-3-1-3.jpg" alt="">
+                            <div class="destinations-three__content">
+                                <h3><a href="">Анапа</a></h3>
+                            </div><!-- /.destinations-three__content -->
+                            <div class="destinations-three__hover-content">
+                                <h3><a href="">Анапа</a></h3>
+                                <p>24 Тура</p>
+                                <a href="" class="destinations-three__link"><i class="tripo-icon-right-arrow"></i></a>
+                            </div><!-- /.destinations-three__hover-content -->
+                        </div><!-- /.destinations-three__single -->
+                    </div><!-- /.col-lg-4 col-md-6 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="destinations-three__single">
+                            <img src="../public/images/destinations/destinations-3-1-4.jpg" alt="">
+                            <div class="destinations-three__content">
+                                <h3><a href="">Новороссийск</a></h3>
+                            </div><!-- /.destinations-three__content -->
+                            <div class="destinations-three__hover-content">
+                                <h3><a href="">Новороссийск</a></h3>
+                                <p>24 Тура</p>
+                                <a href="" class="destinations-three__link"><i class="tripo-icon-right-arrow"></i></a>
+                            </div><!-- /.destinations-three__hover-content -->
+                        </div><!-- /.destinations-three__single -->
+                    </div><!-- /.col-lg-4 col-md-6 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+
+        </section><!-- /.destinations-three -->
+
+        <section class="block-map">
+            <div class="container">
+                <div class="block-title text-center">
+                    <h3>Карта ближайших объектов</h3>
+                    <p v-if="error != ''" class="">{{ error }}</p>
+                    <p class=""></p>
+                </div>
+                
+                <div id='map' style='width: 100%; height: 700px;'></div>
+                
+            </div>
+        </section>
+
+        <section class="tour-category-one">
+            <div class="container">
+                <div class="block-title text-center">
+                    <p>Список туров</p>
+                    <h3>Поиск туров по типам</h3>
+                </div><!-- /.block-title -->
+                <div class="row">
+                    <div class="tour-category-one__col wow fadeInUp " data-wow-duration="1500ms" data-wow-delay="000ms">
+                        <div class="tour-category-one__single">
+                            <i class="tripo-icon-flag"></i>
+                            <h3><a href="">Приключенческие</a></h3>
+                        </div><!-- /.tour-category-one__single -->
+                    </div><!-- /.tour-category-one__col -->
+                    <div class="tour-category-one__col wow fadeInDown " data-wow-duration="1500ms" data-wow-delay="100ms">
+                        <div class="tour-category-one__single">
+                            <i class="tripo-icon-deer"></i>
+                            <h3><a href="tour-sidebar.html">Живая природа</a></h3>
+                        </div><!-- /.tour-category-one__single -->
+                    </div><!-- /.tour-category-one__col -->
+                    <div class="tour-category-one__col wow fadeInUp " data-wow-duration="1500ms" data-wow-delay="200ms">
+                        <div class="tour-category-one__single">
+                            <i class="tripo-icon-sunset"></i>
+                            <h3><a href="">Экскурсии</a></h3>
+                        </div><!-- /.tour-category-one__single -->
+                    </div><!-- /.tour-category-one__col -->
+                    <div class="tour-category-one__col wow fadeInDown " data-wow-duration="1500ms" data-wow-delay="300ms">
+                        <div class="tour-category-one__single">
+                            <i class="tripo-icon-paragliding"></i>
+                            <h3><a href="tour-sidebar.html">Параплан</a></h3>
+                        </div><!-- /.tour-category-one__single -->
+                    </div><!-- /.tour-category-one__col -->
+                    <div class="tour-category-one__col wow fadeInUp " data-wow-duration="1500ms" data-wow-delay="400ms">
+                        <div class="tour-category-one__single">
+                            <i class="tripo-icon-hang-gliding"></i>
+                            <h3><a href="">Дельтапланеризм</a></h3>
+                        </div><!-- /.tour-category-one__single -->
+                    </div><!-- /.tour-category-one__col -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section><!-- /.tour-category-one -->
+
+
+
+
+        <section class="cta-one cta-one__home-two">
+            <div class="container">
+                <h3>Работайте с нашими замечательными гидами</h3>
+                <div class="cta-one__button-block">
+                    <a href="contact.html" class="thm-btn cta-one__btn">Присоединиться</a><!-- /.thm-btn cta-one__btn -->
+                </div><!-- /.cta-one__button-block -->
+            </div><!-- /.container -->
+        </section><!-- /.cta-one -->
+
+        <section class="tour-one">
+            <div class="container">
+                <div class="block-title text-center">
+                    <p>Особенные туры</p>
+                    <h3>Самые популярные туры</h3>
+                </div><!-- /.block-title -->
+                <div class="tour-one__carousel tour-one__carousel-no-overflow thm__owl-carousel  owl-carousel owl-theme" data-options='{"nav": false, "autoplay": true, "autoplayTimeout": 5000, "smartSpeed": 700, "dots": true, "margin": 30, "loop": true, "responsive": { "0": { "items": 1, "nav": true, "navText": ["Prev", "Next"], "dots": false }, "767": { "items": 1, "nav": true, "navText": ["Prev", "Next"], "dots": false }, "991": { "items": 2 }, "1199": { "items": 2 }, "1200": { "items": 3 } }}'>
+                    <div class="item">
+                        <div class="tour-one__single">
+                            <div class="tour-one__image">
+                                <img src="../public/images/tour/tour-1-1.jpg" alt="">
+                                <a href=""><i class="fa fa-heart"></i></a>
+                            </div><!-- /.tour-one__image -->
+                            <div class="tour-one__content">
+                                <div class="tour-one__stars">
+                                    <i class="fa fa-star"></i> 8.0
+                                </div><!-- /.tour-one__stars -->
+                                <h3><a href="">Квадротур: трофи трасса. Выходные в Кабардинке</a></h3>
+                                <p><span>2000 руб.</span> / за человека</p>
+                                <ul class="tour-one__meta list-unstyled">
+                                    <li><a href=""><i class="far fa-clock"></i> 4 часа</a></li>
+                                    <li><a href=""><i class="far fa-user-circle"></i> 14+</a></li>
+                                    <li><a href=""><i class="far fa-map"></i> Геленджик</a></li>
+                                </ul><!-- /.tour-one__meta -->
+                            </div><!-- /.tour-one__content -->
+                        </div><!-- /.tour-one__single -->
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <div class="tour-one__single">
+                            <div class="tour-one__image">
+                                <img src="../public/images/tour/tour-1-2.jpg" alt="">
+                                <a href=""><i class="fa fa-heart"></i></a>
+                            </div><!-- /.tour-one__image -->
+                            <div class="tour-one__content">
+                                <div class="tour-one__stars">
+                                    <i class="fa fa-star"></i> 8.0 
+                                </div><!-- /.tour-one__stars -->
+                                <h3><a href="">Покататься на конях по кедровой роще в Геленджике</a></h3>
+                                <p><span>1200 руб.</span> / за человека</p>
+                                <ul class="tour-one__meta list-unstyled">
+                                    <li><a href=""><i class="far fa-clock"></i> 2 часа</a></li>
+                                    <li><a href=""><i class="far fa-user-circle"></i> 6+</a></li>
+                                    <li><a href=""><i class="far fa-map"></i> Геленджик</a></li>
+                                </ul><!-- /.tour-one__meta -->
+                            </div><!-- /.tour-one__content -->
+                        </div><!-- /.tour-one__single -->
+                    </div><!-- /.item -->
+                    <div class="item">
+                        <div class="tour-one__single">
+                            <div class="tour-one__image">
+                                <img src="../public/images/tour/tour-1-3.jpg" alt="">
+                                <a href=""><i class="fa fa-heart"></i></a>
+                            </div><!-- /.tour-one__image -->
+                            <div class="tour-one__content">
+                                <div class="tour-one__stars">
+                                    <i class="fa fa-star"></i> 7.0
+                                </div><!-- /.tour-one__stars -->
+                                <h3><a href="">На перевал «Грозовые ворота» на джипе</a></h3>
+                                <p><span>1300 руб.</span> / за человека</p>
+                                <ul class="tour-one__meta list-unstyled">
+                                    <li><a href=""><i class="far fa-clock"></i> 6 часов</a></li>
+                                    <li><a href=""><i class="far fa-user-circle"></i> 6+</a></li>
+                                    <li><a href=""><i class="far fa-map"></i> Геленджик</a></li>
+                                </ul><!-- /.tour-one__meta -->
+                            </div><!-- /.tour-one__content -->
+                        </div><!-- /.tour-one__single -->
+                    </div><!-- /.item -->
+                </div><!-- /.tour-one__carousel -->
+            </div><!-- /.container -->
+        </section><!-- /.tour-one -->
+
+        <section class="cta-four" style="background-image: url(../public/images/backgrounds/cta-4-bg.jpg);">
+            <div class="container">
+                <p>Найти следующее место для посещения</p>
+                <h3>Исследуйте <span>мир</span></h3>
+                <a href="" class="thm-btn cta-four__btn">Начать бронирование</a>
+            </div>
+        </section>
+
+
+    <%- include('blocks/footer.ejs') -%>
+   </div>
+    <%- include('blocks/scripts.ejs') -%>
+    <script src="../public/js/map.js"></script>
+</body>
+
+</html>

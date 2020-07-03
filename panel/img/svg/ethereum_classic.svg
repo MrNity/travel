@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="16.9332mm" height="16.9332mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 200 200"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:cc="http://creativecommons.org/ns#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:svg="http://www.w3.org/2000/svg"
+ xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+ xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+ inkscape:version="0.92.0 r15299"
+ sodipodi:docname="ethereum classic.svg">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#EBECEC}
+    .fil1 {fill:#669073}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle id="_466879672" class="fil0" cx="100" cy="100" r="100"/>
+  <g id="_780107520">
+   <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="2.4172336" inkscape:cx="67.849987" inkscape:cy="111.25001" inkscape:document-units="mm" inkscape:current-layer="layer1" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" units="px" inkscape:window-width="1280" inkscape:window-height="744" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:window-maximized="1"/>
+   <g id="layer1" inkscape:label="Layer 1" inkscape:groupmode="layer">
+    <g id="g394">
+     <path id="path380" class="fil1" d="M54 92l46 -20 45 20 -45 -70 -46 70zm0 21l46 27 47 -27 -46 64 -47 -64z" inkscape:connector-curvature="0"/>
+     <polygon id="path382" class="fil1" points="100,82 53,102 100,128 147,102 " inkscape:connector-curvature="0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

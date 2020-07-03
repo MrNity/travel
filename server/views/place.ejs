@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <%- include('blocks/head.ejs') -%>
+</head>
+
+<body>
+   <div id="app">
+    <%- include('blocks/preloader.ejs') -%>
+    <div class="page-wrapper">
+        <%- include('blocks/header.ejs') -%>
+
+        <section class="tour-two tour-list destinations-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="destinations-details__content">
+                            <h3 class="destinations-details__title"><%= data.title %></h3>
+                            <p><%= data.description %></p>
+                            
+                            <div class="row low-gutters destinations-details__gallery mb-0">
+                                <% data.files.forEach(file => { %>
+                                <div class="col-md-6">
+                                    <img src="../public/images/<%=file%>" class="img-fluid" alt="">
+                                </div>
+                                <% }) %>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="tour-sidebar">
+                            <div class="tour-sidebar__featured">
+                                <h3>Рекомендуемые туры</h3>
+                                <div class="tour-sidebar__featured-single">
+                                    <img src="../public/images/tour/tour-1-1.jpg" alt="" style="">
+                                    <span>2000 руб.</span>
+                                    <h3><a href="tour-details.html">Квадротур: трофи трасса. Выходные в Кабардинке</a></h3>
+                                    <p><i class="far fa-clock"> 4 часа</i></p>
+                                </div>
+                                <div class="tour-sidebar__featured-single">
+                                    <img src="../public/images/tour/tour-1-2.jpg" alt="">
+                                    <span>1200 руб.</span>
+                                    <h3><a href="tour-details.html">Покататься на конях по кедровой роще в Геленджике</a></h3>
+                                    <p><i class="far fa-clock"> 2 часа</i></p>
+                                </div>
+                                <div class="tour-sidebar__featured-single">
+                                    <img src="../public/images/tour/tour-1-3.jpg" alt="">
+                                    <span>1300 руб.</span>
+                                    <h3><a href="tour-details-2.html">На перевал «Грозовые ворота» на джипе</a></h3>
+                                    <p><i class="far fa-clock"> 6 часов</i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <%- include('blocks/footer.ejs') -%>
+        <%- include('blocks/scripts.ejs') -%>
+    <script src="../public/js/place.js"></script>
+   </div>
+</body>
+
+</html>

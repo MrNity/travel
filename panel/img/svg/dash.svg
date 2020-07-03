@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="16.9332mm" height="16.9332mm" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 7.41645 7.41645"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil2 {fill:#FEFEFE}
+    .fil1 {fill:#1C75BC}
+    .fil0 {fill:#010101;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+<symbol id="Fm4-477-0" viewBox="73.507 2.97482 5.71673 8.05109">
+ <polygon class="fil0" points="73.507,6.35027 73.507,11.0259 79.2238,2.97482 "/>
+</symbol>
+<symbol id="Fm0-469-0" viewBox="67.7937 -0.705459 11.4267 5.974">
+ <polygon class="fil0" points="73.507,-0.705459 67.7937,1.89143 73.507,5.26854 79.2204,1.89143 "/>
+</symbol>
+<symbol id="Fm1-471-0" viewBox="67.7937 -7.58849 5.71335 12.857">
+ <polygon class="fil0" points="67.7937,1.89138 73.5071,5.26849 73.5071,-0.705503 73.5071,-7.58849 "/>
+</symbol>
+<symbol id="Fm2-473-0" viewBox="73.507 -7.58849 5.71335 12.857">
+ <polygon class="fil0" points="73.507,-7.58849 73.507,-0.705503 73.507,5.26849 79.2204,1.89138 "/>
+</symbol>
+<symbol id="Fm3-475-0" viewBox="67.7937 2.97478 5.71335 8.05109">
+ <polygon class="fil0" points="67.7937,2.97478 73.5071,11.0259 73.5071,6.35018 "/>
+</symbol>
+ <g id="__x0023_Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_394603960">
+   <circle id="_394752944" class="fil1" cx="3.70822" cy="3.70822" r="3.70822"/>
+   <path id="_394754720" class="fil2" d="M2.03421 3.00627l3.0774 0 -0.480774 1.51332 -3.08357 0 -0.250658 0.76244 3.09216 -0.000481781 -0.000175193 0.000481781c0.796691,0.00941663 1.11213,-0.136169 1.37807,-0.922917 0.125657,-0.395542 0.251314,-0.791041 0.376972,-1.18658 0.225692,-0.679881 -0.0132271,-0.942364 -0.762265,-0.928699l-3.09649 0 -0.250658 0.76244zm-0.829671 1.09921l1.7906 0 0.238744 -0.717985 -1.7906 0 -0.238744 0.717985z"/>
+  </g>
+ </g>
+</svg>

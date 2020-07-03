@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="16.9332mm" height="16.9332mm" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 0.916365 0.916365"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil2 {fill:#FEFEFE}
+    .fil3 {fill:#EBECEC;fill-rule:nonzero}
+    .fil4 {fill:#FEFEFE;fill-rule:nonzero}
+    .fil0 {fill:#010101;fill-rule:nonzero}
+    .fil1 {fill:url(#id2)}
+   ]]>
+  </style>
+     <mask id="id0">
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="0.476138" y1="0.0540515" x2="0.440227" y2="0.502796">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+      <rect style="fill:url(#id1)" x="0.127682" y="0.0481312" width="0.661" height="0.460591"/>
+     </mask>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="0.526272" y1="0.921181" x2="0.390093" y2="-0.00481636">
+   <stop offset="0" style="stop-color:#0C3BC9"/>
+   <stop offset="0.619608" style="stop-color:#346FE4"/>
+   <stop offset="1" style="stop-color:#5CA3FF"/>
+  </linearGradient>
+ </defs>
+<symbol id="Fm4-477-0" viewBox="-0.430307 -9.16572 0.70635 0.994779">
+ <polygon class="fil0" points="-0.430307,-8.74865 -0.430307,-8.17094 0.276043,-9.16572 "/>
+</symbol>
+<symbol id="Fm0-469-0" viewBox="-1.13624 -9.62045 1.41187 0.738138">
+ <polygon class="fil0" points="-0.430307,-9.62045 -1.13624,-9.29958 -0.430307,-8.88231 0.275626,-9.29958 "/>
+</symbol>
+<symbol id="Fm1-471-0" viewBox="-1.13623 -10.4709 0.705933 1.58859">
+ <polygon class="fil0" points="-1.13623,-9.29959 -0.430302,-8.88232 -0.430302,-9.62045 -0.430302,-10.4709 "/>
+</symbol>
+<symbol id="Fm2-473-0" viewBox="-0.430307 -10.4709 0.705933 1.58859">
+ <polygon class="fil0" points="-0.430307,-10.4709 -0.430307,-9.62045 -0.430307,-8.88232 0.275626,-9.29959 "/>
+</symbol>
+<symbol id="Fm3-475-0" viewBox="-1.13623 -9.16573 0.705933 0.994779">
+ <polygon class="fil0" points="-1.13623,-9.16573 -0.430302,-8.17095 -0.430302,-8.74867 "/>
+</symbol>
+ <g id="__x0023_Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_394194016">
+   <g>
+    <circle id="_78941696" class="fil1" cx="0.458182" cy="0.458182" r="0.458185"/>
+    <path id="_78940832" class="fil2" style="mask:url(#id0)" d="M0.458182 0.0535428c0.179542,0 0.325088,0.100684 0.325088,0.224886 0,0.124203 -0.145546,0.224881 -0.325088,0.224881 -0.179542,0 -0.325088,-0.100678 -0.325088,-0.224881 0,-0.124203 0.145546,-0.224886 0.325088,-0.224886z"/>
+   </g>
+   <g>
+    <polygon id="_393190528" class="fil3" points="0.350393,0.34161 0.565971,0.34161 0.458193,0.26713 "/>
+    <path id="_393190624" class="fil3" d="M0.741855 0.340154l-0.259185 -0.179082c-0.00675373,-0.0046919 -0.0156288,-0.00702432 -0.0244769,-0.00702432 -0.0088751,0 -0.0177448,0.00233242 -0.0245039,0.00702432l-0.259185 0.179082c-0.000654809,0.00045999 -0.00112562,0.000968684 -0.00171008,0.00145573l0.097572 0 0.187827 -0.129777 0.1878 0.129777 0.0975828 0c-0.000600693,-0.000487048 -0.00106609,-0.000995743 -0.0017209,-0.00145573z"/>
+    <polygon id="_393190696" class="fil4" points="0.21442,0.410998 0.70195,0.410998 0.70195,0.363614 0.21442,0.363614 "/>
+    <polygon id="_393190720" class="fil3" points="0.21442,0.626685 0.70195,0.626685 0.70195,0.5793 0.21442,0.5793 "/>
+    <polygon id="_393190792" class="fil3" points="0.164476,0.688724 0.751889,0.688724 0.751889,0.641339 0.164476,0.641339 "/>
+    <polygon id="_393191128" class="fil4" points="0.236759,0.565798 0.319715,0.565798 0.319715,0.428683 0.236759,0.428683 "/>
+    <polygon id="_393191368" class="fil4" points="0.417048,0.565798 0.499998,0.565798 0.499998,0.428683 0.417048,0.428683 "/>
+    <polygon id="_393191584" class="fil4" points="0.597343,0.565798 0.680287,0.565798 0.680287,0.428683 0.597343,0.428683 "/>
+   </g>
+  </g>
+ </g>
+</svg>

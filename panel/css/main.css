@@ -1,0 +1,87 @@
+.time {
+    float: right !important;
+}
+/*#398bf7*/
+.btn-send {
+    background: #398bf7;
+    border-color: #398bf7;
+    color: #fff;
+    width: 50px;
+}
+#message {
+    resize: none;
+}
+
+header > nav a {
+    color: #fff!important;
+}
+header > nav a:hover {
+    color: #d8d8d8!important;
+    background: #2b78f4!important;
+}
+header > nav a:focus {
+    color: #d8d8d8!important;
+    background: #2b78f4!important;
+}
+
+#textNews {
+    resize: none!important;
+}
+
+.sidebar,
+.content-wrapper {
+    height: 1500px;
+    overflow: hidden;
+}
+table {
+    font-size: 16px;
+}
+
+.marker {
+    display: block;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+/*    color: #e4ed0c;*/
+}
+.marker-here {
+    width: 30px;
+    height: 30px;
+}
+.marker-orange {
+    -webkit-filter: invert(56%) sepia(94%) saturate(487%) hue-rotate(359deg) brightness(102%) contrast(104%);
+    filter: invert(56%) sepia(94%) saturate(487%) hue-rotate(359deg) brightness(102%) contrast(104%);
+}
+.marker-green {
+    -webkit-filter: invert(50%) sepia(90%) saturate(1257%) hue-rotate(79deg) brightness(104%) contrast(96%);
+    filter: invert(50%) sepia(90%) saturate(1257%) hue-rotate(79deg) brightness(104%) contrast(96%);
+}
+.marker-blue {
+    -webkit-filter: invert(79%) sepia(59%) saturate(2283%) hue-rotate(137deg) brightness(95%) contrast(100%);
+    filter: invert(79%) sepia(59%) saturate(2283%) hue-rotate(137deg) brightness(95%) contrast(100%);
+}
+.marker-red {
+    -webkit-filter: invert(18%) sepia(84%) saturate(4102%) hue-rotate(356deg) brightness(93%) contrast(93%);
+    filter: invert(18%) sepia(84%) saturate(4102%) hue-rotate(356deg) brightness(93%) contrast(93%);
+}
+.marker-pink {
+    -webkit-filter: invert(24%) sepia(34%) saturate(6866%) hue-rotate(284deg) brightness(98%) contrast(120%);
+    filter: invert(24%) sepia(34%) saturate(6866%) hue-rotate(284deg) brightness(98%) contrast(120%);
+}
+.marker-yellow {
+    -webkit-filter: invert(88%) sepia(99%) saturate(7497%) hue-rotate(2deg) brightness(97%) contrast(91%);
+    filter: invert(88%) sepia(99%) saturate(7497%) hue-rotate(2deg) brightness(97%) contrast(91%);
+}
+.login {
+    width: 100%;
+    min-height: 100% !important;
+    background-color: #2f2f2f;
+}
+.login-form {
+    margin-top: 200px;
+}
